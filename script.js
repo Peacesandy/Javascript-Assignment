@@ -35,7 +35,10 @@ if(User2 == 1){
         alert('Unknown Transaction')
     }
 }else if(User2 == 2){
-    prompt('Choose a transaction')
+  let Transaction =  prompt(`Choose a transaction
+    1. Transfer
+    2. Withdrawal`)
 }
+
 
 
